@@ -1,2 +1,18 @@
 //Colors
 $white: #ffffff;
+
+$font-size: 1em;
+
+* {
+	font-size:$font-size;
+	color:#000;
+}
+
+
+.col {
+    background: #eee;
+    //text-align: center;
+    &:nth-child(odd) {
+        background: #e2e2e2;
+    }
+}

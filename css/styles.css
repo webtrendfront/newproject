@@ -1,2 +1,10 @@
+* {
+  font-size: 1em;
+  color: #000; }
+
+.col {
+  background: #eee; }
+  .col:nth-child(odd) {
+    background: #e2e2e2; }
 
 /*# sourceMappingURL=styles.css.map */
